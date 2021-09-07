@@ -1,0 +1,87 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    font-size: 14px;
+}
+
+.nav-wrap {
+    width: 35%;
+}
+
+.nav-font-size {
+    font-size: 1rem;
+}
+
+nav {
+    width: 40%;
+}
+
+.second {
+    margin: auto 100px;
+    flex-basis: 30%;
+}
+
+.second h4 {
+    font-weight: 400;
+}
+
+.second p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.second h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-1 {
+    background-image: url('/images/hero-image1.webp');
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/images/hero-image2.webp');
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background-image: url('/images/hero-image3.webp');
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.color-1 {
+    background-color: #fff7ee;
+}
+
+.color-2{
+    background-color: #e0ebff;
+}
+
+.covid-color {
+    background-color: black;
+}
+
+.sect-margin {
+    margin-bottom: 200px;
+}
+
+@media (max-width: 576px) {
+    
+}
