@@ -4,7 +4,6 @@
 @font-face {
     font-family: "HK Grotesk";
     src: url("/style/hk-grotesk/HKGrotesk-Regular.otf");
-
 }
 
 body {
@@ -41,6 +40,10 @@ div#footer {
 
 #foot-links, #foot-icons {
     width: fit-content;
+}
+
+#foot-icons i {
+    color: #fff;
 }
 
 .btn-primary {
@@ -93,8 +96,40 @@ section.socials {
 
 #card-cont {
     margin: 48px 12px;
+    padding: 12%;
 }
 
 .news-button {
+    width: fit-content;
+}
+
+.odd-ones {
+    opacity: .8;
+}
+
+.bright {
+    opacity: .7;
+}
+.card-text {
+    font-size: .9rem;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card {
+    height: 360px;
+}
+
+.dates {
+    opacity: .6;
+    font-size: .8rem;
+    position: relative;
+    margin-bottom: 1rem!important;
+}
+
+.nav-item {
     width: fit-content;
 }
