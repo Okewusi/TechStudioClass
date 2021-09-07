@@ -19,7 +19,9 @@
 .card{
     box-shadow: .05rem .05rem .5rem #888888;
 }
-
+.photo{
+    object-fit: cover;
+}
 .icon{
     display: flex;
     width: 10%;
