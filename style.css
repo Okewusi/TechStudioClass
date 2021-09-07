@@ -1,0 +1,105 @@
+#logo{
+    width: 70px;
+    height: 70px;
+   padding: 20px;
+   
+}
+
+.head-c{ position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+#foot-1{
+    text-align: center;
+    background-color: rgba(7, 87, 7, 0.863);
+    height: 200px;
+    margin-top: 200px;
+    padding-top: 20px;
+    color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#nav-logo{
+    display: flex;
+    justify-content:space-between;
+    flex-basis: 50%;
+}
+
+#nav-1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    flex-basis: 40%;
+}
+
+#nav-1 ul li{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+button{
+    margin-top: 27px;
+}
+
+
+
+#nav-1 button{ width: 200px;
+    height: 50px;
+    background-color: rgba(0, 128, 64, 0.712);
+    border-radius: 5px; 
+    color: white;
+border-color: green;
+
+
+}
+
+#nav-1 ul li {
+list-style: none;
+}
+
+
+#nav-1 ul li a{
+    text-decoration: none;
+}
+
+.main-1{
+
+    text-align: center;
+}
+
+.main-2{
+background-color: rgba(245, 222, 179, 0.5);
+height: 250px;
+padding-top: 100px;
+font-weight: bold;
+margin-top: 10px;
+}
+.main-3{
+    padding-top:80px;
+}
+
+
+
+.icon i{ margin-left: 10px;
+
+}
+
+
+
+
+
+.empty{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
